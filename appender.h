@@ -10,7 +10,7 @@ namespace ap{
      * @Parameters:
      *  filePath: source file location
      * @Return value:
-     *  If success, returns a pointer to content(if converter is there, converted content); else,
+     *  If success, returns a pointer to content; else,
      *  returns nullptr.
      * */
     char *ap_view(const char *filePath);
