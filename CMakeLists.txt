@@ -3,4 +3,4 @@ project(appender)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(appender main.cpp appender.h appender.cpp)
+add_executable(appender main.cpp appender.h appender.cpp crc/crc/crc32.c)

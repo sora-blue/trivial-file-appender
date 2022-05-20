@@ -152,6 +152,30 @@ appender.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appender.dir\build.make CMakeFiles/appender.dir/appender.cpp.s
 .PHONY : appender.cpp.s
 
+crc/crc/crc32.obj: crc/crc/crc32.c.obj
+.PHONY : crc/crc/crc32.obj
+
+# target to build an object file
+crc/crc/crc32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appender.dir\build.make CMakeFiles/appender.dir/crc/crc/crc32.c.obj
+.PHONY : crc/crc/crc32.c.obj
+
+crc/crc/crc32.i: crc/crc/crc32.c.i
+.PHONY : crc/crc/crc32.i
+
+# target to preprocess a source file
+crc/crc/crc32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appender.dir\build.make CMakeFiles/appender.dir/crc/crc/crc32.c.i
+.PHONY : crc/crc/crc32.c.i
+
+crc/crc/crc32.s: crc/crc/crc32.c.s
+.PHONY : crc/crc/crc32.s
+
+# target to generate assembly for a file
+crc/crc/crc32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appender.dir\build.make CMakeFiles/appender.dir/crc/crc/crc32.c.s
+.PHONY : crc/crc/crc32.c.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... appender.obj
 	@echo ... appender.i
 	@echo ... appender.s
+	@echo ... crc/crc/crc32.obj
+	@echo ... crc/crc/crc32.i
+	@echo ... crc/crc/crc32.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

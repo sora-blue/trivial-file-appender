@@ -80,12 +80,12 @@ clean: CMakeFiles/appender.dir/clean
 CMakeFiles/appender.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appender.dir\build.make CMakeFiles/appender.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appender.dir\build.make CMakeFiles/appender.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\HP\CLionProjects\appender\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target appender"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\HP\CLionProjects\appender\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target appender"
 .PHONY : CMakeFiles/appender.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appender.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\CLionProjects\appender\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\CLionProjects\appender\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/appender.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\CLionProjects\appender\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/appender.dir/rule

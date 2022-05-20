@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/HP/CLionProjects/appender/appender.h">
 			<Option target="appender"/>
 		</Unit>
+		<Unit filename="C:/Users/HP/CLionProjects/appender/crc/crc/crc32.c">
+			<Option target="appender"/>
+		</Unit>
+		<Unit filename="C:/Users/HP/CLionProjects/appender/crc/crc/crc32.h">
+			<Option target="appender"/>
+		</Unit>
 		<Unit filename="C:/Users/HP/CLionProjects/appender/main.cpp">
 			<Option target="appender"/>
 		</Unit>
