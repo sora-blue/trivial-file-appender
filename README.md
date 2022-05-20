@@ -3,11 +3,14 @@ A simple simple toy lib provides 3 api to append info into file with simple CRC 
 Not responsible for users' behavior.
 
 # Info format
-+----------+----------+----------+----------+
-|   CRC32  |  content |   size   |   sign   |
-+----------+----------+----------+----------+
-|  4 bytes |          |  4 bytes |  8 bytes |
-+----------+----------+----------+----------+
+
+<pre>
++----------+----------+----------+----------+  
+|   CRC32  |  content |   size   |   sign   |  
++----------+----------+----------+----------+  
+|  4 bytes |$size byte|  4 bytes |  8 bytes |  
++----------+----------+----------+----------+  
+</pre>
 
 # Build
 
