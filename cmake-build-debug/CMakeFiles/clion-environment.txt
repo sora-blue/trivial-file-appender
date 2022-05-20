@@ -1,0 +1,4 @@
+ToolSet: w64 7.0 (local)@D:\Program Files (x86)\Dev-Cpp\MinGW32
+Options: 
+
+Options:-DCMAKE_C_COMPILER=D:/Program Files (x86)/Dev-Cpp/MinGW32/bin/gcc.exe
