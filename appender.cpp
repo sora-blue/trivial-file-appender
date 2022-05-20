@@ -142,12 +142,14 @@ namespace ap{
         }
 
         result = verify(sourceFile, nullptr, &size);
-        if(!result)
+        if(result)
         {
             A_LOG("Failed to verify");
             fclose(sourceFile);
             return -1;
         }
+        fseek(sourceFile, 0, SEEK_END);
+        size = ftell(sourceFile) - size;
         fclose(sourceFile);
         genFile = copyN_file_s(newPath, filePath, size);
         if (!genFile)
